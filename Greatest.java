@@ -1,25 +1,19 @@
-package com.sonata.assignment;
+package com.sonata;
 
 public class Greatest {
-public static void main(String ar[])
-{
-	System.out.println("to find greatest number ");
-	int a=12;
-	int b=25;
-	int c=89;
-	if(a >b && a>c)
-	{
-		System.out.println("number"+a+"is greater");
+	public static void main(String[] args) {
+		
+		int ar[]  = {12,25,89};
+		int max=0;
+		for(int i=0;i<ar.length;i++)
+		{
+			if (max<ar[i])
+			{
+				max=ar[i];
+			}
+		}
+		
+	System.out.println(max);
 	}
-	else if(b>a && b>c)
-	{
-		System.out.println("number"+b+"is gretaer");
 
-	}
-	else
-		System.out.println("number"+c+"is greater");
-	
 }
-	
-}
-
