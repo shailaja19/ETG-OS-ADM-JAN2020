@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Simple Calculator</title>
+</head>
+<body>
+<form action="./MyCalculatorServlet" method ="post">
+<label>Number 1:</label>
+<input type= "text" name = "num1"/> <br>
+<label>Number 2:</label>
+<input type = "text" name = "num2" /> <br>
+Operator
+                
+                <select name="op">
+                   
+                    <option value="Addition">Addition</option>
+                    <option value="Subtraction">Subtraction</option>
+                    <option value="multiplication">multiplication</option>
+                    <option value="division">division</option>
+                </select>
+            
+
+                <input type="submit" value="Calculate" />
+<input type  = "reset" value = "Clear" name = "clear"/>
+</form>
+</body>
+</html>
