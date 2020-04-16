@@ -1,0 +1,12 @@
+
+<div>
+    <ul *ngFor="let hd of resource">
+        <li>{{hd.id}} {{hd.name}}</li>
+    </ul>
+</div>
+<h4>PRODUCTS</h4>
+<div>
+    <ul *ngFor="let pd of items">
+        <li>{{pd.proId}} {{pd.proName}} {{pd.proPrice}} <img class="_img" src={{pd.pimg}} alt="" ></li>
+    </ul>
+</div>
