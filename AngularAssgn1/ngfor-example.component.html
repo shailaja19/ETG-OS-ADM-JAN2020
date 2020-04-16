@@ -1,0 +1,16 @@
+<p>ngfor-example works!</p>
+<div>
+    <h1>product details</h1>
+    <ul *ngFor="let hd of resource">
+    <li>{{hd.id}} {{hd.name}} {{hd.price}} 
+        <img class="tag" src={{hd.pimg}} alt="">
+    </li>
+</ul>
+
+<div>
+    <h1>Details of hero</h1>
+    <ul *ngFor="let hd1 of resource1">
+    <li>{{hd1.id}} {{hd1.name}} </li>
+</ul>
+
+</div>
