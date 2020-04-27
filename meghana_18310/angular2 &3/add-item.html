@@ -1,0 +1,11 @@
+<div>
+    <input type="text" placeholder="enter grocery items" [(ngModel)]="task" />
+    <button type="button" (click)="onClick()">AddItem
+    </button>
+
+    <ul class="list-group">
+        <li *ngFor="let task of tasks" class="list-group-item">
+            <span> {{ task.name }} </span>
+        </li>
+    </ul>
+</div>
